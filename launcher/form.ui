@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainLauncher</class>
+ <widget class="QMainWindow" name="MainLauncher">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Launcher</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/images/resources/750x500_bg.png);</string>
+   </property>
+   <widget class="QPushButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>0</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background: transparent;
+image: url(:/images/resources/buttons_Close_off.png);
+}
+QPushButton:hover
+{
+	background: transparent;
+	image: url(:/images/resources/buttons_Close_over.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minusButton">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>0</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background: transparent;
+image: url(:/images/resources/buttons_Minimize_off.png);
+}
+QPushButton:hover
+{
+	
+	
+	image: url(:/images/resources/buttons_Minimize_over.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainLauncher</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>709</x>
+     <y>9</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>359</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>minusButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainLauncher</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>9</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>359</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

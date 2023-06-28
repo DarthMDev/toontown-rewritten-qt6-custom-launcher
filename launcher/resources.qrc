@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resources/750x500_bg.png</file>
+        <file>resources/blog_link.gif</file>
+        <file>resources/button_quit_default.png</file>
+        <file>resources/button_quit_down.png</file>
+        <file>resources/button_quit_gray.png</file>
+        <file>resources/button_quit_over.png</file>
+        <file>resources/buttons_Close_off.png</file>
+        <file>resources/buttons_Close_over.png</file>
+        <file>resources/buttons_Minimize_off.png</file>
+        <file>resources/buttons_Minimize_over.png</file>
+        <file>resources/CREATEPWD.png</file>
+        <file>resources/CREATEPWU.png</file>
+        <file>resources/FORGOTD.png</file>
+        <file>resources/FORGOTU.png</file>
+        <file>resources/frame_cropped2.png</file>
+        <file>resources/PLAYg.png</file>
+        <file>resources/PLAYR.png</file>
+        <file>resources/PLAYU.png</file>
+        <file>resources/QUITD.png</file>
+        <file>resources/QUITG.png</file>
+        <file>resources/QUITR.png</file>
+        <file>resources/QUITU.png</file>
+        <file>resources/TT_launcher_frame.png</file>
+    </qresource>
+</RCC>
